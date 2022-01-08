@@ -36,6 +36,7 @@ class _HomepageState extends State<Homepage> {
     if (isroot) {
       if (time1 == 0 || time2 == 0) {
         setState(() {
+          ispressed=true;
           time1 = 300;
           time2 = 300;
           isup1 = false;
